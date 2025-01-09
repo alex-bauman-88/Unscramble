@@ -1,21 +1,16 @@
-Unscramble app
-=================================
+# Unscramble App
 
-Single player game app that displays scrambled words. To play the game, player has to make a
-word using all the letters in the displayed scrambled word.
-This code demonstrates the Android Architecture component- ViewModel and StateFlow.
+This lab project is part of the Android Basics with Compose course.
 
+Unscramble app is a simple single-player word game where the user is presented with scrambled letters and must unscramble them to form a valid word. The game provides feedback on whether the guess is correct and keeps track of the player's score.
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
-* How to create composable functions 
+## Technologies Used
 
-
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+*   Kotlin
+*   Android Studio
+*   Jetpack Compose
+*   MVVM pattern
+*   ViewModel
+*   StateFlow (Kotlin Coroutines)
+*   Unit Testing (JUnit)
+  
