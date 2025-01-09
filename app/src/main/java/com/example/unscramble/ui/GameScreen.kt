@@ -64,10 +64,6 @@ fun GameScreen(
 ) {
     val mediumPadding = dimensionResource(R.dimen.padding_medium)
 
-    // Подписчики (subscribers): Когда другие части приложения подписываются на
-    // StateFlow, они могут получать новое значение каждый раз, когда оно меняется.
-    // Это можно делать через корутины или специальные функции для Compose, такие
-    // как collectAsState().
     val gameUiState by gameViewModel.uiState.collectAsState()
 
     Column(
